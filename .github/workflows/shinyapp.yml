@@ -1,4 +1,4 @@
-name: shinyapp
+name: shinyapp1
 on:
   push:
     branches: [feature_rakesh2]
