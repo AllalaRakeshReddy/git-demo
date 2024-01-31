@@ -1,4 +1,4 @@
-name: rakeshworkflow2
+name: rakeshworkflow3
 on:
   push:
     branches: [feature_rakesh]
@@ -16,7 +16,7 @@ jobs:
           use-public-rspm: true
       - name: Install dependencies
         run: |
-          R -e 'install.packages("shiny")'
+          R -e 'install.packages("shiny", "rsconnect")'
       - name: Run shiny app
         run: R -e 'shiny_app::runApp()'
       - name: Create manifest.json
