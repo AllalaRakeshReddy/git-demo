@@ -27,7 +27,7 @@ jobs:
         uses: rstudio/actions/connect-publish@main
         with:
           url: https://dev.positconnect.analytics.kellogg.com
-          api-key: ZwSmEdJTvDUIDCfQg4tOhuR3Efurc9Oz
+          api-key: eXknFE1zPpNGTjPHDDFAGDipToCRe1Bh
           access-type: logged_in
           dir: |
             .:/shiny-app-demo-cicd-github-actions
